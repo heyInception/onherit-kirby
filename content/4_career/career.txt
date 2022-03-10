@@ -1,0 +1,290 @@
+Title: Deine Karriere in einem  familiären & herzlichen Team
+
+----
+
+Cover:
+
+- header-career-min.jpg
+
+----
+
+Menuheading: Karriere
+
+----
+
+Subheading: Vielfältige Entfaltungsmöglichkeiten für Softwareentwickler
+
+----
+
+Titlebtn:
+
+- 
+  platform: Über uns
+  url: /about-us
+
+----
+
+Advantagetitle: Profitiere von den vielen  Vorteilen bei Ohrner IT
+
+----
+
+Advantagesubtitle: Ein Team als Ganzes funktioniert nur, wenn es jedem Mitglied an nichts fehlt
+
+----
+
+Advantageimage:
+
+- img-adv-min.jpg
+
+----
+
+Advantageheadline: Work-Life-Balance
+
+----
+
+Advantagetext: Neben flexiblen Arbeitszeiten und Überstundenregelungen wird auch durch die Möglichkeit für Zusatzurlaub sowie Home-Office eine gesunde Work-Life-Balance sichergestellt.
+
+----
+
+Advantageheadline-2: Gesundheit
+
+----
+
+Advantagetext-2: Wir übernehmen die Kosten für Fitnessstudio oder Sportverein und bieten unserem Team jede Woche kostenlose, professionelle Massagen. So bleiben wir fit für den Job.
+
+----
+
+Advantageheadline-3: Versorgung
+
+----
+
+Advantagetext-3: In der Cafeteria kann sich das Team nicht nur an kostenlosem Kaffee und weiteren Getränken sowie Knabbereien bedienen. Dazu gibt es einen Mittagessenszuschuss in der benachbarten Kantine.
+
+----
+
+Advantageheadline-4: Freizeitangebote
+
+----
+
+Advantagetext-4: Böblingen ist einer der wichtigsten Industriestandorte Deutschlands mit vielfältigen Kultur- und Freizeitangeboten. Ob Kino oder Sportstätte – alles nur einen Katzensprung entfernt.
+
+----
+
+Advantageheadline-5: Gute Anbindung
+
+----
+
+Advantagetext-5: Dank der guten Bahnanbindung und dem Zuschuss zum Firmenticket für den Nahverkehr (VVS) kommt man sowohl nach Herrenberg als auch nach Stuttgart in unter einer halben Stunde.
+
+----
+
+Advantageheadline-6: Altersvorsorge und Team-Events
+
+----
+
+Advantagetext-6: Unsere Mitarbeiter profitieren darüber hinaus von der Möglichkeit für eine betrieblich geförderte Altersvorsorge und spannenden Team-Events.
+
+----
+
+Albumtitle: Arbeiten bei uns
+
+----
+
+Albumsubtitle: Das alles wartet auf dich
+
+----
+
+Albumimage-1:
+
+- ohrnerit_galerie_karriere1-min.jpg
+
+----
+
+Albumimage-2:
+
+- ohrnerit_galerie_karriere2-min.jpg
+
+----
+
+Albumimage-3:
+
+- ohrnerit_galerie_karriere3-min.jpg
+
+----
+
+Albumimage-4:
+
+- ohrnerit_galerie_karriere4-min.jpg
+
+----
+
+Albumimage-5:
+
+- ohrnerit_galerie-min.jpg
+
+----
+
+Albumimage-6:
+
+- ohrnerit_galerie_karriere6-min.jpg
+
+----
+
+Albumimage-7:
+
+- ohrnerit_galerie_karriere7-min.jpg
+
+----
+
+Albumimage-8:
+
+- ohrnerit_galerie_karriere8-min.jpg
+
+----
+
+Jobitle: Stellenanzeigen
+
+----
+
+Jobsubtitle: Lust auf spannende Projekte, neue Herausforderungen und ein großartiges Team?
+
+----
+
+Jobtext: Dann profitiere von unseren Softwareentwickler Weiterbildungsmöglichkeiten und Entfaltungsmöglichkeiten. Jedes unserer Teammitglieder ist ein maßgeblicher und gestaltender Teil von Ohrner IT. Wenn du gemeinsam mit uns die digitale Welt vorantreiben willst oder neugieriger, angehender Informatiker bist, dann sind diese Stellen möglicherweise das Richtige für dich!
+
+----
+
+Jobimage:
+
+- job.png
+
+----
+
+Jobbtn:
+
+- 
+  platform: Informatikstudent/-in Masterthesis
+  url: >
+    /img/2021-12-21_OHRNER-IT_Stellenausschreibung.pdf
+
+----
+
+Jobdesc: Masterarbeit angewandte theoretische Informatik.
+
+----
+
+Jobinfo: Nicht das Richtige dabei? Wir freuen uns auch auf deine Initiativbewerbung.
+
+----
+
+Processtitle: Der Bewerbungsprozess bei Ohrner IT
+
+----
+
+Processsubtitle: Wir freuen uns riesig auf deine Bewerbung!
+
+----
+
+Processtext1: Fülle einfach das Kontakt-formular aus und lade mit einem Klick deine Bewerbungs-unterlagen hoch.
+
+----
+
+Processtext2: Wir werden deine Bewerbungsunterlagen sorgfältig prüfen und melden uns schnellst möglich bei dir.
+
+----
+
+Processtext3: Wenn wir der Meinung sind, dass du gut zu uns passt, laden wir dich zu einem Bewerbungsgespräch ein.
+
+----
+
+Processinfo: Gern kannst du uns bei Fragen vorab auch telefonisch kontaktieren.
+
+----
+
+Amtitle: Erfahre hier noch mehr über das Unternehmen und unser herzliches Team.
+
+----
+
+Amsubtitle: Wir können es kaum erwarten, ein weiteres Mitglied in der Ohrner-IT-Familie willkommen zu heißen.
+
+----
+
+Ambtn:
+
+- 
+  platform: Kununu
+  url: https://www.kununu.com/de/ohrner-it
+
+----
+
+Ambtn2:
+
+- 
+  platform: Über uns
+  url: /about-us
+
+----
+
+Contactimage:
+
+- contacts__img-1.jpg
+
+----
+
+Caption: Bei Fragen stehe ich dir gerne zur Verfügung.
+
+----
+
+Name: Gunter Ohrner
+
+----
+
+Text: Inhaber/Geschäftsführender Gesellschafter
+
+----
+
+Address: <strong>Ohrner IT GmbH</strong> <br>Otto-Lilienthal-Straße 36 71034 Böblingen
+
+----
+
+Email: info@ohrner-it.com
+
+----
+
+Phone: +49 7031 – 20 29 29 0
+
+----
+
+Phone2: +49 7031 – 20 29 29 99
+
+----
+
+Maintitle: Kontakt
+
+----
+
+Subtitle: Sie wollen eine Software entwickeln lassen? Dann sind Sie bei uns richtig! Wir freuen uns auf Ihre Anfrage.
+
+----
+
+Subtitle2: Profitieren Sie von unseren individuellen Leistungen und füllen Sie unser Kontaktformular aus.
+
+----
+
+Jobimage-1: - job.png
+
+----
+
+Teamtitle: 
+
+----
+
+Teamsubtitle: 
+
+----
+
+Teamtext: 
+
+----
+
+Teamimage: 

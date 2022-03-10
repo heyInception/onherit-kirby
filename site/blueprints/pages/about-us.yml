@@ -1,0 +1,384 @@
+# Each page blueprint must have a title, the title may be different from the file name
+title: About-us
+
+# Each page can have an icon that is shown in page listings when no preview image is available.
+icon: ☎️
+
+# Limit the possible page statuses to `draft` and `listed`.
+# More about page statuses: https://getkirby.com/docs/reference/panel/blueprints/page#statuses
+status:
+  draft: true
+  listed: true
+
+# Page options allow you to control how users can interact with the page.
+# Here we prevent changing the page slug and page deletion
+# More about page options: https://getkirby.com/docs/reference/panel/blueprints/page#options
+options:
+  changeSlug: false
+  delete: true
+
+# We use tabs here to focus on the layout in one tab
+# and have the additional contact fields in a secondary
+# tab. Tabs can really help to clean up the interface
+# when it otherwise gets too complicated
+tabs:
+  header:
+    icon: text
+    label: header
+    sections:
+      meta:
+        type: fields
+        fields:
+          menuheading:
+            label: Menu
+            type: text
+          cover: fields/cover
+          subheading:
+            label: subheading
+            type: text
+          titlebtn:
+            label: Button
+            type: structure
+            max: 1
+            columns:
+              platform: true
+            fields:
+              platform:
+                label: Text
+                type: text
+                width: 1/2
+              url:
+                label: URL
+                type: text
+                width: 1/2
+  about:
+    icon: text
+    label: about
+    columns:
+      - width: 1/2
+        fields:
+          abouttitle:
+            label: Title
+            type: text
+          aboutsubtitle:
+            label: Subtitle
+            type: textarea
+            buttons: false
+          abouttext:
+            label: Text
+            type: textarea
+            buttons: false 
+          aboutimage:
+            label: Image
+            type: files
+            link: true
+            max: 1
+            multiple: false
+            layout: cards
+            query: page.images
+            cover: true
+            uploads: 
+              parent: page
+              template: files-upload  
+  IT:
+    icon: text
+    label: IT-Softwareentwickler
+    columns:
+      - width: 1/1
+        fields:
+          ittitle:
+            label: Title
+            type: text
+          itsubtitle:
+            label: Subtitle
+            type: textarea
+            buttons: false
+      - width: 1/3
+        fields:   
+          itttext_1:
+            label: Text-1
+            type: textarea
+            buttons: true 
+      - width: 1/3
+        fields:   
+          itttext_2:
+            label: Text-2
+            type: textarea
+            buttons: false 
+      - width: 1/3
+        fields:   
+          itttext_3:
+            label: Text-3
+            type: textarea
+            buttons: false 
+      - width: 1/3
+        fields:   
+          itttext_4:
+            label: Text-4
+            type: textarea
+            buttons: false 
+      - width: 1/3
+        fields:   
+          itttext_5:
+            label: Text-5
+            type: textarea
+            buttons: false 
+      - width: 1/3
+        fields:   
+          itttext_6:
+            label: Text-6
+            type: textarea
+            buttons: false 
+  Album:
+    icon: text
+    label: Album
+    columns:
+      - width: 1/1
+        fields:
+          albumtitle:
+            label: Title
+            type: text
+          albumsubtitle:
+            label: Subtitle
+            type: textarea
+            buttons: false
+      - width: 1/8
+        fields:
+          albumimage_1:
+            label: image-1
+            type: files
+            link: true
+            max: 1
+            multiple: false
+            layout: cards
+            query: page.images
+            uploads: 
+              parent: page
+              template: files-upload 
+      - width: 1/8
+        fields:
+          albumimage_2:
+            label: image-2
+            type: files
+            link: true
+            max: 1
+            multiple: false
+            layout: cards
+            query: page.images
+            uploads: 
+              parent: page
+              template: files-upload 
+      - width: 1/8
+        fields:
+          albumimage_3:
+            label: image-3
+            type: files
+            link: true
+            max: 1
+            multiple: false
+            layout: cards
+            query: page.images
+            uploads: 
+              parent: page
+              template: files-upload 
+      - width: 1/8
+        fields:
+          albumimage_4:
+            label: image-4
+            type: files
+            link: true
+            max: 1
+            multiple: false
+            layout: cards
+            query: page.images
+            uploads: 
+              parent: page
+              template: files-upload 
+      - width: 1/8
+        fields:
+          albumimage_5:
+            label: image-5
+            type: files
+            link: true
+            max: 1
+            multiple: false
+            layout: cards
+            query: page.images
+            uploads: 
+              parent: page
+              template: files-upload 
+      - width: 1/8
+        fields:
+          albumimage_6:
+            label: image-6
+            type: files
+            link: true
+            max: 1
+            multiple: false
+            layout: cards
+            query: page.images
+            uploads: 
+              parent: page
+              template: files-upload  
+      - width: 1/8
+        fields:
+          albumimage_7:
+            label: image-7
+            type: files
+            link: true
+            max: 1
+            multiple: false
+            layout: cards
+            query: page.images
+            uploads: 
+              parent: page
+              template: files-upload 
+      - width: 1/8
+        fields:
+          albumimage_8:
+            label: image-8
+            type: files
+            link: true
+            max: 1
+            multiple: false
+            layout: cards
+            query: page.images
+            uploads: 
+              parent: page
+              template: files-upload 
+  history:
+    icon: text
+    label: history
+    columns:
+      - width: 1/1
+        fields:
+          historytitle:
+            label: Title
+            type: text
+      - width: 1/3
+        fields:
+          datetitle_1:
+            label: Title-1
+            type: text
+          datesubtitle_1:
+            label: Subtitle-1
+            type: textarea
+            buttons: false
+      - width: 1/3
+        fields:
+          datetitle_2:
+            label: Title-2
+            type: text
+          datesubtitle_2:
+            label: Subtitle-2
+            type: textarea
+            buttons: false
+      - width: 1/3
+        fields:
+          datetitle_3:
+            label: Title-3
+            type: text
+          datesubtitle_3:
+            label: Subtitle-3
+            type: textarea
+            buttons: false
+      - width: 1/3
+        fields:
+          datetitle_4:
+            label: Title-4
+            type: text
+          datesubtitle_4:
+            label: Subtitle-4
+            type: textarea
+            buttons: false
+      - width: 1/3
+        fields:
+          datetitle_5:
+            label: Title-5
+            type: text
+          datesubtitle_5:
+            label: Subtitle-5
+            type: textarea
+            buttons: false
+      - width: 1/3
+        fields:
+          datetitle_6:
+            label: Title-6
+            type: text
+          datesubtitle_6:
+            label: Subtitle-6
+            type: textarea
+            buttons: false
+  slider:
+    icon: text
+    label: slider
+    columns:
+      - width: 1/1
+        fields:
+          slidertitle:
+            label: Title
+            type: text
+          slidersubtitle:
+            label: Subtitle
+            type: textarea
+            buttons: false
+      - width: 1/2
+        fields:
+          sliderimg:
+            label: image
+            type: files
+            link: true
+            max: 1
+            multiple: false
+            layout: cards
+            query: page.images
+            uploads: 
+              parent: site
+              template: files-upload 
+          sliderhead:
+            label: Title
+            type: text
+          slidertext:
+            label: Text
+            type: textarea
+            buttons: true
+      - width: 1/2
+        fields:
+          sliderimg_2:
+            label: image
+            type: files
+            link: true
+            max: 1
+            multiple: false
+            layout: cards
+            query: page.images
+            uploads: 
+              parent: page
+              template: files-upload 
+          sliderhead_2:
+            label: Title
+            type: text
+          slidertext_2:
+            label: Text
+            type: textarea
+            buttons: true  
+      - width: 1/2
+        fields:
+          sliderimg_3:
+            label: image
+            type: files
+            link: true
+            max: 1
+            multiple: false
+            layout: cards
+            query: page.images
+            uploads: 
+              parent: page
+              template: files-upload 
+          sliderhead_3:
+            label: Title
+            type: text
+          slidertext_3:
+            label: Text
+            type: textarea
+            buttons: true 

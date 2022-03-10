@@ -1,0 +1,68 @@
+Title: news-page-4
+
+----
+
+Subheading: Hier ist Platz für eine kurze Beschreibung zum Artikel
+
+----
+
+Textblog: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.
+
+----
+
+Blogimage: - news-main.jpg
+
+----
+
+Layout-two: [{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"Beispiel Headline"},"id":"32a68c55-6adc-4112-86fb-9b8abfec5ad9","isHidden":false,"type":"heading"},{"content":{"level":"h6","text":"Hier steht eine informative erg\u00e4nzende Subline"},"id":"453a15be-f4dd-47b6-8cf9-5db90c82ebc2","isHidden":false,"type":"heading"}],"id":"cd10db31-8fb3-4300-960f-b47b05ea0dd7","width":"1\/1"}],"id":"9f3a5d36-e1bc-4d58-897b-eb91e09a3487"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<\/p><p><\/p>"},"id":"b9dff061-ce16-4640-9f86-5c87124821b6","isHidden":false,"type":"text"}],"id":"1a9c8973-09d7-4824-a6b9-ea95ef31f8af","width":"1\/2"},{"blocks":[{"content":{"text":"<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<\/p>"},"id":"d4864e8e-6a28-4147-8449-3838e27b6775","isHidden":false,"type":"text"}],"id":"a6935838-59a2-4da0-88b7-d7226c9d3756","width":"1\/2"}],"id":"9dadf54a-57bf-4707-a299-95ccfcab358d"}]
+
+----
+
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["christina-wocintechchat-com-7rrj4wdx7le-unsplash.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"1\/1","crop":"true"},"id":"97b81309-c9b5-4ecd-a28e-eb39a5437222","isHidden":false,"type":"image"}],"id":"06e6eca5-68b9-4890-8ef9-dc794292d66f","width":"1\/2"},{"blocks":[{"content":{"level":"h2","text":"Beispiel Headline"},"id":"1432cfc8-86b4-4dae-833a-d7f3681cd190","isHidden":false,"type":"heading"},{"content":{"level":"h6","text":"Hier steht eine informative erg\u00e4nzende Subline"},"id":"c68e487e-7c3f-4e46-b043-01717ab9e463","isHidden":false,"type":"heading"},{"content":{"text":"<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.<\/p>"},"id":"94fc09d0-913f-4bd3-ae30-e4f650afcfd4","isHidden":false,"type":"text"}],"id":"4765b51b-cc65-4608-8d5f-da9d0e853daa","width":"1\/2"}],"id":"170436de-ba93-4239-bab1-98b7781f760b"},{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"Beispiel Headline"},"id":"d74ff71d-194c-4454-863c-4683f7376567","isHidden":false,"type":"heading"},{"content":{"level":"h6","text":"Hier steht eine informative erg\u00e4nzende Subline"},"id":"63fc660c-c23a-47bf-87ec-104f61c32032","isHidden":false,"type":"heading"},{"content":{"text":"<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<\/p>"},"id":"7464b473-1ded-4c53-87b6-54df01331ffa","isHidden":false,"type":"text"}],"id":"7ea40aa3-dbb0-4cda-841f-422e5e6fa802","width":"1\/2"},{"blocks":[{"content":{"location":"kirby","image":["christina-wocintechchat-com-sxqkvbfajhc-unsplash.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"4bcf08e2-9aa5-4255-92de-a5d45299a539","isHidden":false,"type":"image"}],"id":"7201c572-1887-45ad-b8fb-1e556f6dc084","width":"1\/2"}],"id":"ba2b6435-fbd0-43ae-9540-b67dea9e3520"}]
+
+----
+
+Cover: - news-header.jpg
+
+----
+
+Date: 2021-12-15 00:00:00
+
+----
+
+Author: - LZfaynnU
+
+----
+
+Files: 
+
+----
+
+Tags: 
+
+----
+
+Text:
+
+- 
+  content:
+    level: h2
+    text: Beispiel Headline
+  id: 22f2eb25-eb10-4bef-9e85-ab95d0567e8c
+  isHidden: false
+  type: heading
+- 
+  content:
+    level: h6
+    text: >
+      Hier steht eine informative ergänzende
+      Subline
+  id: 54689316-ea9e-4fde-ac23-6f94a47a8365
+  isHidden: false
+  type: heading
+- 
+  content:
+    text: ""
+  id: ad5787dc-516a-409b-894d-80ab676196fa
+  isHidden: false
+  type: text

@@ -1,0 +1,450 @@
+# Each page blueprint must have a title, the title may be different from the file name
+title: Home
+
+# Each page can have an icon that is shown in page listings when no preview image is available.
+icon: ☎️
+
+# Limit the possible page statuses to `draft` and `listed`.
+# More about page statuses: https://getkirby.com/docs/reference/panel/blueprints/page#statuses
+status:
+  draft: true
+  listed: true
+
+# Page options allow you to control how users can interact with the page.
+# Here we prevent changing the page slug and page deletion
+# More about page options: https://getkirby.com/docs/reference/panel/blueprints/page#options
+options:
+  changeSlug: false
+  delete: true
+
+# We use tabs here to focus on the layout in one tab
+# and have the additional contact fields in a secondary
+# tab. Tabs can really help to clean up the interface
+# when it otherwise gets too complicated
+tabs:
+  header:
+    icon: text
+    label: header
+    fields:
+      headerlogo:
+        label: Logo
+        type: files
+        link: true
+        max: 1
+        multiple: false
+        layout: cards
+        query: page.images
+        cover: true
+        uploads: 
+          parent: page
+          template: files-upload
+      menuheading:
+        label: Menu
+        type: text
+      cover: fields/cover
+      subheading:
+        label: subheading
+        type: text
+      titlebtn:
+            label: Button
+            type: structure
+            max: 1
+            columns:
+              platform: true
+            fields:
+              platform:
+                label: Text
+                type: text
+                width: 1/2
+              url:
+                label: URL
+                type: text
+                width: 1/2
+      
+  
+  # The contact tab pre-defines a set of address
+  # fields for the contact box at the bottom of the about
+  # page. Combining modular content from layouts with
+  # pre-defined content from such fields is a great way to
+  # offer flexibility and yet keep certain constraints.
+  #
+  # The form layout is created with two columns,
+  # each column has a set of fields
+  # More about columns:
+  # https://getkirby.com/docs/guide/blueprints/layout#defining-columns
+  team:
+    icon: text
+    label: team
+    columns:
+      - width: 1/2
+        fields:
+          teamtitle:
+            label: Title
+            type: text
+          teamsubtitle:
+            label: Subtitle
+            type: textarea
+            buttons: false
+          teamtext:
+            label: Text
+            type: textarea
+            buttons: false
+          teamimage:
+            label: Image
+            type: files
+            link: true
+            max: 1
+            multiple: false
+            layout: cards
+            query: page.images
+            cover: true
+            uploads: 
+              parent: page
+              template: files-upload
+      - width: 1/2
+        fields:
+          teamtitle2:
+            label: Title
+            type: text
+          teamsubtitle2:
+            label: Subtitle
+            type: textarea
+            buttons: false
+          teamtext2:
+            label: Text
+            type: textarea
+            buttons: false
+          teamimage2:
+            label: Image
+            type: files
+            link: true
+            max: 1
+            multiple: false
+            layout: cards
+            query: page.images
+            cover: true
+            uploads: 
+              parent: page
+              template: files-upload
+          teamlist:
+            label: List
+            type: list
+      - width: 1/1
+        fields:
+          teammaintext:
+            label: Text
+            type: textarea
+            buttons: false
+          teambtn:
+            label: On the web
+            type: structure
+            max: 1
+            columns:
+              platform: true
+            fields:
+              platform:
+                label: Text
+                type: text
+                width: 1/2
+              url:
+                label: URL
+                type: url
+                width: 1/2
+  offer:
+    icon: text
+    label: offer
+    columns:
+      - width: 1/1
+        fields:
+          offertitle:
+            label: Title
+            type: text
+          offersubtitle:
+            label: Subtitle
+            type: textarea
+            buttons: false
+      - width: 1/3
+        fields:
+          servicetext1:
+            label: Title
+            type: text
+      - width: 1/3
+        fields:
+          servicetext2:
+            label: Title
+            type: text
+      - width: 1/3
+        fields:
+          servicetext3:
+            label: Title
+            type: text
+      - width: 1/3
+        fields:
+          servicetext4:
+            label: Title
+            type: text
+      - width: 1/3
+        fields:
+          servicetext5:
+            label: Title
+            type: text
+      - width: 1/3
+        fields:
+          servicetext6:
+            label: Title
+            type: text
+  banners:
+    icon: text
+    label: banners
+    columns:
+      - width: 1/1
+        fields:
+          bannersimage:
+            label: Image
+            type: files
+            link: true
+            max: 1
+            multiple: false
+            layout: cards
+            query: page.images
+            cover: true
+            width: 1/1
+            uploads: 
+              parent: page
+              template: files-upload
+      - width: 1/2
+        fields:
+          bannersimgvideo:
+            label: Video-preview
+            type: files
+            link: true
+            max: 1
+            multiple: false
+            layout: cards
+            query: page.images
+            cover: true
+            uploads: 
+              parent: page
+              template: files-upload
+      - width: 1/2
+        fields:
+          bannersvideo:
+            label: video
+            type: files
+            link: true
+            max: 1
+            multiple: false
+            layout: cards
+            query: page.videos
+            cover: true
+            uploads: 
+              parent: page
+              template: files-upload
+      - width: 1/1
+        fields:
+          bannerstext:
+            label: Text
+            type: textarea
+            buttons: false
+  news:
+    icon: document
+    label: news
+    columns:
+      - width: 1/2
+        fields:
+          toggle:
+            label: Enable news?
+            type: toggle
+            text: 
+              - "no"
+              - "yes"
+          newstitle:
+            label: Title
+            type: text
+          newssubtitle:
+            label: Text
+            type: textarea
+            buttons: false
+      - width: 1/2
+        fields:
+          newsbtn:
+            label: Button
+            type: structure
+            max: 1
+            columns:
+              platform: true
+            fields:
+              platform:
+                label: Text
+                type: text
+                width: 1/2
+              url:
+                label: URL
+                type: url
+                width: 1/2
+      - width: 1/3
+        sections:
+          drafts:
+            extends: sections/news
+            headline: Drafts
+            status: draft
+
+          unlisted:
+            extends: sections/news
+            headline: In Review
+            status: unlisted
+      - width: 2/3
+        sections:
+          listed:
+            extends: sections/news
+            headline: Published
+            status: listed
+            size: small
+            layout: cards
+  career:
+    icon: text
+    label: career
+    columns:
+      - width: 1/2
+        fields:
+          cartitle:
+            label: Title
+            type: text
+          carsubtitle:
+            label: Text
+            type: textarea
+            buttons: false
+          cartext:
+            label: Text
+            type: textarea
+            buttons: false
+          carlist:
+            label: List
+            type: list
+          cartext2:
+            label: Text
+            type: textarea
+            buttons: false
+      - width: 1/2
+        fields:
+          carimage:
+            label: Image
+            type: files
+            link: true
+            max: 1
+            multiple: false
+            layout: cards
+            query: page.images
+            cover: true
+            uploads: 
+              parent: page
+              template: files-upload
+  contact:
+    icon: map
+    label: Contacts
+    columns:
+      - width: 1/2
+        # Kirby has many different field types, from simple text fields to the more complex structure field that contains subfields
+        # All available field types: https://getkirby.com/docs/reference/panel/fields
+        fields:
+          contactimage:
+            label: Image
+            type: files
+            link: true
+            max: 1
+            multiple: false
+            layout: cards
+            query: page.images
+            cover: true
+            uploads: 
+              parent: page
+              template: files-upload
+          caption:
+            label: caption
+            type: text
+          name:
+            label: Name
+            type: text
+          text:
+            label: Owner
+            type: textarea
+          address:
+            label: Address
+            type: writer
+            inline: true
+      - width: 1/2
+        fields:
+          maintitle:
+            label: Title
+            type: text
+          subtitle:
+            label: Subtitle
+            type: textarea
+          subtitle2:
+            label: Text
+            type: textarea
+  footer:
+    icon: text
+    preview: image
+    label: Footer All Pages
+    fields:
+      footerlogo:
+        label: Logo
+        type: files
+        link: true
+        max: 1
+        multiple: false
+        layout: cards
+        query: page.images
+        cover: true
+        uploads: 
+          parent: page
+          template: files-upload
+      footerbtn1:
+        label: Kununu
+        type: structure
+        max: 1
+        columns:
+          platform: true
+        fields:
+          platform:
+            label: Text
+            type: text
+            width: 1/2
+          url:
+            label: URL
+            type: text
+            width: 1/2
+      footerbtn2:
+        label: Xing
+        type: structure
+        max: 1
+        columns:
+          platform: true
+        fields:
+          platform:
+            label: Text
+            type: text
+            width: 1/2
+          url:
+            label: URL
+            type: text
+            width: 1/2
+      footerbtn3:
+        label: Instagram
+        type: structure
+        max: 1
+        columns:
+          platform: true
+        fields:
+          platform:
+            label: Text
+            type: text
+            width: 1/2
+          url:
+            label: URL
+            type: text
+            width: 1/2
+      copyright:
+        label: Copyright
+        type: text

@@ -1,0 +1,345 @@
+Title: Ohrner IT: Ihr zuverlässiger  IT-Softwareentwickler
+
+----
+
+Menuheading: Über uns
+
+----
+
+Cover:
+
+- header-about-min-1.jpg
+
+----
+
+Subheading: Unsere kompetenten Software-Programmierer für Ihr individuelles Vorhaben
+
+----
+
+Titlebtn:
+
+- 
+  platform: Kontakt aufnehmen
+  url: '#contacts'
+
+----
+
+Abouttitle: IT-Softwareentwickler aus Leidenschaft
+
+----
+
+Aboutsubtitle: Ihre Software-Programmierer mit Erfahrung, Expertise und Herz
+
+----
+
+Abouttext:
+
+Seit über 15 Jahren begeistern wir Kunden bei kleinen, mittleren und großen Projekten für die unterschiedlichsten Branchen. Doch Erfahrung allein genügt nicht. Daher stellen wir uns immer wieder neuen Anforderungen, was unsere Entwicklungsarbeit so spannend macht.
+
+Unsere qualifizierten IT-Softwareentwickler entwickeln in intensiver Abstimmung mit unseren Auftraggebern Software und richten sich dabei flexibel nach deren individuellen Wünschen.
+
+Unsere Software-Programmierer verfügen außerdem über eine hohe interkulturelle Kompetenz in gleich sechs Sprachen und stellen sich jeder Herausforderung. Dabei spielt es keine Rolle, ob es sich um eine Integration, eine Neu- oder eine Weiterentwicklung von Modulen und Systemen handelt. Wir sind in jedem Fall für Sie da.
+
+----
+
+Aboutimage:
+
+- about-min.png
+
+----
+
+Ittitle: Ihre IT-Softwareentwickler von Ohrner IT
+
+----
+
+Itsubtitle: Dafür stehen wir
+
+----
+
+Itttext-1:
+
+15+ Jahre<br>
+Erfahrung
+
+----
+
+Itttext-2:
+
+100 %<br>
+Made in Germany
+
+----
+
+Itttext-3:
+
+6 Sprachen<br>
+& Kulturen
+
+----
+
+Itttext-4:
+
+Familiäres Team<br>
+& Atmosphäre
+
+----
+
+Itttext-5:
+
+Bester Service<br>
+& hohe Transparenz
+
+----
+
+Itttext-6:
+
+10 motivierte,<br>
+herzliche Mitarbeiter
+
+----
+
+Albumtitle: Unser Team
+
+----
+
+Albumsubtitle: Lernen Sie die herzlichen Menschen hinter Ohrner IT kennen
+
+----
+
+Albumimage-1:
+
+- ohrnerit_galerie_ueberuns1-min.jpg
+
+----
+
+Albumimage-2:
+
+- ohrnerit_galerie_ueberuns2-min.jpg
+
+----
+
+Albumimage-3:
+
+- ohrnerit_galerie_ueberuns3-min.jpg
+
+----
+
+Albumimage-4:
+
+- ohrnerit_galerie_ueberuns4-min.jpg
+
+----
+
+Albumimage-5:
+
+- ohrnerit_galerie_ueberuns5-min.jpg
+
+----
+
+Albumimage-6:
+
+- ohrnerit_galerie_ueberuns6-min.jpg
+
+----
+
+Albumimage-7:
+
+- ohrnerit_galerie_ueberuns7-min.jpg
+
+----
+
+Albumimage-8:
+
+- ohrnerit_galerie_ueberuns8-min.jpg
+
+----
+
+Historytitle: Unsere Geschichte
+
+----
+
+Datetitle-1: 2014
+
+----
+
+Datesubtitle-1: Wir beziehen neue Büroräume im Softwarezentrum Böblingen / Sindelfingen und sind nun ein Dream-Team aus 4 Personen.
+
+----
+
+Datetitle-2: 2010
+
+----
+
+Datesubtitle-2: Alle Software-Entwicklungs-Dienstleistungen für die Uni-DSL GmbH & Co. KG sind in der Ohrner IT GmbH gebündelt.
+
+----
+
+Datetitle-3: 2007
+
+----
+
+Datesubtitle-3: Gunter Ohrner gründet die Ohrner IT GmbH in Böblingen mit dem Ziel, seinen Kunden individuelle Sofware-entwicklung 100% made in Germany zu bieten.
+
+----
+
+Datetitle-4: 2020
+
+----
+
+Datesubtitle-4: Für alle Mitarbeiter ist nun auch unbeschränkt Home-Office möglich. Dank "Daily Standups" steht der engen Teamarbeit trotz räumlicher Distanz nichts im Wege.
+
+----
+
+Datetitle-5: 2019
+
+----
+
+Datesubtitle-5: Wir zählen 10 motivierte Mitarbeiter in unserem Team, darunter unsere erste Werkstudentin! Außerdem freuen wir uns über neue, größere Räumlichkeiten mit eigener Kaffeeküche.
+
+----
+
+Datetitle-6: 2016
+
+----
+
+Datesubtitle-6: Ein langfristiger Rahmenvertrag bei unserem Haupt-Auftraggeber ist gesichert und in unseren vergrößerten Büros finden inzwischen 7 Mitarbeiter Platz.
+
+----
+
+Slidertitle: Software-Programmierer<br> mit Verantwortungsbewusstsein
+
+----
+
+Slidersubtitle: Verantwortung hat bei uns einen hohen Stellenwert – ökologisch wie auch gesellschaftlich
+
+----
+
+Sliderimg:
+
+- slider-min.jpg
+
+----
+
+Sliderhead: Gesellschaftliche Verantwortung
+
+----
+
+Slidertext:
+
+Unserer sozialen Verantwortung gehen wir in mehreren Bereichen nach.
+- Bankgeschäfte
+- Fair produzierte Hardware
+- Kaffee
+
+Zum einen zeigen wir mit unserem Firmenkonto bei der EthikBank eG, dass unser Geld nicht auf eine Weise investiert werden soll, die wir als Menschen nicht unterstützen wollen. Zum anderen setzen wir als IT-Softwareentwickler bevorzugt auf faire IT-Hardware und sind auch ständig auf der Suche nach nachhaltigen Alternativen. Dazu gehört beispielsweise der kostenlose Bürokaffee, der grundsätzlich Fair Trade ist und strenge Fairness-Kriterien erfüllt.
+
+----
+
+Sliderimg-2:
+
+- slider-2.jpg
+
+----
+
+Sliderhead-2: Ökologische Verantwortung
+
+----
+
+Slidertext-2:
+
+Auch gegenüber der Umwelt nehmen wir unsere Verantwortung sehr ernst.
+
+- Modernes Müllkonzept
+- Bezuschusste Fahrkarte<br> für den Nahverkehr
+- Gesenkter Papierverbrauch
+
+Da wir großen Wert auf Mülltrennung legen, bringen wir den Wertstoffmüll selbst auf den nahegelegenen Wertstoffhof. Durch das bezuschusste Firmenticket und eine Einkaufsgemeinschaft, senken wir außerdem den Benzinverbrauch und die Belastung der Umwelt. Zudem drucken wir nur, was notwendig ist. Unser Drucker- und Briefpapier besteht dabei komplett oder teilweise aus Recyclingpapier und ist vollständig chlorfrei gebleicht.
+
+----
+
+Sliderimg-3:
+
+- photo_2021-12-14_15-28-36.jpg
+
+----
+
+Sliderhead-3: Verantwortung in der Nachhaltigkeit
+
+----
+
+Slidertext-3:
+
+Darüber hinaus vermeiden wir unnötigen Stromverbrauch und nutzen stattdessen umweltfreundliche Alternativen.
+
+- Leistungsfähige, aber stromsparende Laptops als Arbeitsplatzrechner
+- Schaltbare Steckerleisten, um den Standby-Stromverbrauch zu reduzieren
+
+Dank unseres Antrags wechselte das Softwarezentrum Böblingen/Sindelfingen auf Strom aus regenerativen Energien. Der Jahresstromverbrauch von ca. 1 Gigawattstunde wird seitdem durch Ökostrom mit ok-power-Siegel gestemmt. Das Siegel stellt sicher, dass der Stromeinkauf tatsächlich der Förderung und dem Ausbau regenerativer Energien zugutekommt.
+
+----
+
+Albumimage: 
+
+----
+
+Advantagetitle: 
+
+----
+
+Advantagesubtitle: 
+
+----
+
+Advantageimage: 
+
+----
+
+Advantageheadline: 
+
+----
+
+Advantagetext: 
+
+----
+
+Advantageheadline-2: 
+
+----
+
+Advantagetext-2: 
+
+----
+
+Advantageheadline-3: 
+
+----
+
+Advantagetext-3: 
+
+----
+
+Advantageheadline-4: 
+
+----
+
+Advantagetext-4: 
+
+----
+
+Advantageheadline-5: 
+
+----
+
+Advantagetext-5: 
+
+----
+
+Advantageheadline-6: 
+
+----
+
+Advantagetext-6: 
+
+----
+
+Historysubtitle: 

@@ -1,0 +1,333 @@
+Title: Individuelle Software - entwicklung mit Ohrner IT
+
+----
+
+Headerlogo:
+
+- logo-h.svg
+
+----
+
+Menuheading: Home
+
+----
+
+Cover:
+
+- header__bg-min.jpg
+
+----
+
+Subheading: Softwareentwicklung konsequent effizient
+
+----
+
+Titlebtn:
+
+- 
+  platform: Unsere Leistungen
+  url: /services
+
+----
+
+Teamtitle: Ihr persönlicher Ansprechpartner für individuelle Software - entwicklung
+
+----
+
+Teamsubtitle: Konsequente Effizienz seit über 15 Jahren mit Ihrem zuverlässigen Softwareentwicklungs-Dienstleister
+
+----
+
+Teamtext: Seit jeher sind wir ganz nah am Kunden und legen hohen Wert auf dessen Wünsche. Als IT-Softwareentwickler mit einer außergewöhnlichen Serviceorientierung stehen wir für einzigartige Software 100% made in Germany.
+
+----
+
+Teamimage:
+
+- team.png
+
+----
+
+Teamtitle2: Unsere Leistungen für Ihre individuelle Softwareentwicklung
+
+----
+
+Teamsubtitle2: Ihr kompetenter Softwareentwicklungs-Dienstleister aus der Region Stuttgart
+
+----
+
+Teamtext2: Als erfahrener IT-Dienstleister setzen wir da, wo Sie in Ihrer Software-Landschaft Lücken sehen, die richtigen Brücken, integrieren Insellösungen und ermöglichen unterbrechungsfreie Arbeitsprozesse. Egal, ob es sich um ein einfaches Tool für die tägliche Arbeit handelt oder Sie einen komplexen Sonderfall vorliegen haben – wir finden die passende Lösung und bieten Ihnen vielfältige Leistungen:
+
+----
+
+Teamimage2:
+
+- team__2.png
+
+----
+
+Teamlist: <ul><li>Entwicklung individueller Software-Lösungen</li><li>Programmierung zusätzlicher Funktionalität und Plugins</li><li>Installation und Konfiguration erforderlicher Systeme und Software</li></ul>
+
+----
+
+Teammaintext: Mit unserem qualifizierten und spezialisierten Team aus IT-Softwareentwicklern sind wir in der Lage, auf Ihre individuellen Anforderungen und Wünsche einzugehen und diese bei der Umsetzung und Implementierung zu berücksichtigen. Auch Anpassungen sowie Wartungen nehmen wir zuverlässig und professionell vor. Wir sorgen dafür, dass Ihre Systeme stets auf dem neuesten Stand sind und arbeiten mit verschiedenen Technologien – von Java, über Python bis hin zu MySQL.
+
+----
+
+Teambtn:
+
+- 
+  platform: Unsere Leistungen
+  url: >
+    https://ohrner-it.storming-development.de/services
+
+----
+
+Offertitle: Diese Vorteile bietet die individuelle Softwareentwicklung mit Ohrner IT
+
+----
+
+Offersubtitle: Unsere IT-Softwareentwickler: schnell, kompetent und immer für Sie da
+
+----
+
+Servicetext1: Reaktionszeit auf jede Anfrage innerhalb eines Werktages
+
+----
+
+Servicetext2: Ein Ansprechpartner über die gesamte Projektlaufzeit
+
+----
+
+Servicetext3: Mehr Effizienz und Verlässlichkeit durch Automatisierung
+
+----
+
+Servicetext4: Weniger Aufwand durch Reduktion manueller Schritte
+
+----
+
+Servicetext5: Maximale Transparenz über den jeweiligen Projektabschnitt
+
+----
+
+Servicetext6: Höhere Qualität durch Vermeidung manueller Fehler
+
+----
+
+Bannersimage:
+
+- banner-2-min.png
+
+----
+
+Bannersimgvideo:
+
+- video2.bb7f9691.png
+
+----
+
+Bannersvideo:
+
+- ohrner_video.371f986d.mp4
+
+----
+
+Bannerstext: Unser professionelles Team aus der Region Stuttgart liefert maßgeschneiderte Softwarelösungen für Ihr Anliegen.
+
+----
+
+Toggle: false
+
+----
+
+Newstitle: News
+
+----
+
+Newssubtitle: Mit unseren aktuellen Nachrichten immer auf dem neusten Stand
+
+----
+
+Newsbtn:
+
+- 
+  platform: Alle News
+  url: >
+    https://ohrner-it.storming-development.de/news
+
+----
+
+Cartitle: Karriere bei Ohrner IT
+
+----
+
+Carsubtitle: Dein Softwareentwicklungs - Dienstleister mit Potenzial
+
+----
+
+Cartext: Die Ohrner IT ist dein Unternehmen mit vielfältigen Entwicklungs- und Weiterbildungsmöglichkeiten. Als Arbeitgeber bieten wir zahlreiche Benefits:
+
+----
+
+Carlist: <ul><li><strong>Work-Life-Balance</strong></li><li><strong>Zentrale Lage</strong></li><li><strong>Gesundheitsleistungen</strong></li><li><strong>Versorgung</strong></li><li><strong>Altersvorsorge</strong></li></ul>
+
+----
+
+Cartext2: Als Teil unseres Teams profitierst du zudem von der Arbeit mit motivierten, offenen Kollegen und einer familiären Atmosphäre. Wir sorgen für die stetige Weiterentwicklung unseres Teams – fachlich und persönlich.
+
+----
+
+Carimage:
+
+- career__img.png
+
+----
+
+Contactimage:
+
+- contacts__img-1.jpg
+
+----
+
+Caption: Bei Fragen stehe ich Ihnen gerne zur Verfügung.
+
+----
+
+Name: Gunter Ohrner
+
+----
+
+Text: Inhaber/Geschäftsführender Gesellschafter
+
+----
+
+Address: <strong>Ohrner IT GmbH</strong> <br>Otto-Lilienthal-Straße 36 71034 Böblingen
+
+----
+
+Maintitle: Kontakt
+
+----
+
+Subtitle: Sie wollen eine Software entwickeln lassen? Dann sind Sie bei uns richtig! Wir freuen uns auf Ihre Anfrage.
+
+----
+
+Subtitle2: Profitieren Sie von unseren individuellen Leistungen und füllen Sie unser Kontaktformular aus.
+
+----
+
+Footerlogo:
+
+- logo.svg
+
+----
+
+Footerbtn1:
+
+- 
+  platform: Kununu
+  url: https://www.kununu.com/de/ohrner-it
+
+----
+
+Footerbtn2:
+
+- 
+  platform: Xing
+  url: https://www.xing.com/pages/ohrneritgmbh
+
+----
+
+Footerbtn3:
+
+- 
+  platform: Instagram
+  url: ""
+
+----
+
+Copyright: © 2021 Ohrner IT. Alle Rechte vorbehalten.
+
+----
+
+Email: info@ohrner-it.com
+
+----
+
+Phone: +49 7031 – 20 29 29 0
+
+----
+
+Phone2: +49 7031 – 20 29 29 99
+
+----
+
+Location: kirby
+
+----
+
+Image: 
+
+----
+
+Src: 
+
+----
+
+Alt: 
+
+----
+
+Link: 
+
+----
+
+Ratio: 
+
+----
+
+Crop: false
+
+----
+
+Downloads: 
+
+----
+
+Navigation:
+
+- 
+  children: [ ]
+  id: news
+  text: News
+  url: >
+    https://ohrner-it.storming-development.de/news
+  uuid: habwqtubknd
+  popup: false
+  title: news
+
+----
+
+Layout: [{"attrs":[],"columns":[{"blocks":[],"id":"871ac52f-0feb-4188-aa22-cf192f3be669","width":"1\/1"}],"id":"63ec2730-b6bd-4ad1-8dfa-438fc7ab55e9"},{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"Ihr pers\u00f6nlicher \u0003Ansprechpartner f\u00fcr \u0003individuelle Software- entwicklung"},"id":"1603251f-c61d-43f3-9ddf-10a13ec54cb6","isHidden":false,"type":"heading"},{"content":{"text":"<p>Konsequente Effizienz seit \u00fcber 15 Jahren mit Ihrem zuverl\u00e4ssigen Softwareentwicklungs-\u0003Dienstleister<\/p>"},"id":"cd84af2f-0f96-473c-9209-b75e84a42be7","isHidden":false,"type":"text"}],"id":"f298d59f-96de-4ade-9be3-b7fc973a2aa7","width":"1\/2"},{"blocks":[{"content":{"images":["team.png"]},"id":"cb884e49-a7f2-42bd-825e-3563c05a95f3","isHidden":false,"type":"gallery"}],"id":"242eb9df-a199-4b52-a359-3366eb07be05","width":"1\/2"}],"id":"af9b552c-32ca-456d-8afd-7c37ed14df2b"},{"attrs":[],"columns":[{"blocks":[],"id":"5ff9c871-f513-4af3-91b4-a745f0c77b86","width":"1\/2"},{"blocks":[],"id":"d76ca52f-e2c3-402c-a748-5c955818f2b6","width":"1\/2"}],"id":"bf04576b-2084-4353-bbbb-7e9f361ee204"}]
+
+----
+
+Social:
+
+- 
+  platform: Unsere Leistungen
+  url: https://www.youtube.com/
+
+----
+
+Phone-2: 
+
+----
+
+Headline: Welcome to Kirby's Starterkit
+
+----
+
+Subheadline: A fully documented example project

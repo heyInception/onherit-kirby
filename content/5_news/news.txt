@@ -1,0 +1,46 @@
+Title: News
+
+----
+
+Cover: 
+
+----
+
+Menuheading: News
+
+----
+
+Subheading: Aktuelle Nachrichten der Ohrner IT aus Böblingen
+
+----
+
+Teamtitle: Über uns
+
+----
+
+Teamsubtitle: Wir sind Ihre Softwareentwickler mit Erfahrung, Expertise und Herz.
+
+----
+
+Teamtext:
+
+Seit über 15 Jahren setzen wir kleine, mittlere und große Projekte in der Softwareentwicklung für die unterschiedlichsten Branchen und Kunden um. Jedes Projekt und jede Situation erfordert eine individuelle Lösung, daher liegt uns eines ganz besonders am Herzen: eine Software zu entwickeln, die stets passgenau auf die Wünsche und Anforderungen unserer Kunden zugeschnitten ist. Wir sind IT-Softwareentwickler aus Leidenschaft.
+
+
+Erfahren Sie hier noch mehr über das Unternehmen und unser herzliches Team.
+
+----
+
+Teamimage: 
+
+----
+
+Text:
+
+- 
+  content:
+    level: h2
+    text: Newsss
+  id: f8718ea8-90ea-4c34-a40e-666330555579
+  isHidden: false
+  type: heading

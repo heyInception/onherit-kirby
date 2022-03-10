@@ -1,0 +1,69 @@
+Title: Ohrner IT
+
+----
+
+Email: demo@demo.com
+
+----
+
+From: info@test.com
+
+----
+
+Mailto: info@ohrner-it.com
+
+----
+
+Telnumber: +49 7031 – 20 29 29 0
+
+----
+
+Telnumber2: +49 7031 – 20 29 29 99
+
+----
+
+Navigation:
+
+- 
+  children: [ ]
+  text: Home
+  url: '#home'
+  popup: false
+  uuid: 4vu7vd0v3ss
+- 
+  children: [ ]
+  text: Leistungen
+  url: '#Leistungen'
+  popup: false
+  uuid: plpj5on8qyn
+- 
+  children: [ ]
+  text: Über uns
+  url: '#team'
+  popup: false
+  uuid: efy3ghbp6ap
+- 
+  children: [ ]
+  text: Karriere
+  url: '#career'
+  popup: false
+  uuid: fy7vvmrex4r
+- 
+  children: [ ]
+  id: news
+  text: News
+  url: >
+    https://ohrner-it.storming-development.de/news
+  uuid: 3piy879maos
+
+----
+
+Builder: 
+
+----
+
+Mybuilder:
+
+- 
+  _key: quote
+  _uid: quote_1638186182381_120

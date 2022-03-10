@@ -1,0 +1,860 @@
+:root {
+    --color-black: #000;
+    --color-white: #fff;
+}
+
+.custom-checkbox__field:checked+.custom-checkbox__content::after {
+    opacity: 1;
+}
+
+.custom-checkbox__field:focus+.custom-checkbox__content::before {
+    outline: red solid 2px;
+    outline-offset: 2px;
+}
+
+.custom-checkbox__field:disabled+.custom-checkbox__content {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+@font-face {
+    font-family: Eurostile;
+    src: url(../fonts/eurostile-bold.woff) format("woff"), url(../fonts/eurostile-bold.ttf) format("ttf");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Eurostile;
+    src: url(../fonts/eurostile.woff) format("woff"), url(../fonts/eurostile.ttf) format("ttf");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Eurostile Extd";
+    src: url(../fonts/Eurostile-Extended-Medium.woff) format("woff"), url(../fonts/Eurostile-Extended-Medium.ttf) format("ttf");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+:focus {
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Eurostile, sans-serif;
+    background-color: var(--color-white);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.btn-reset {
+    border: none;
+    background: 0 0;
+    cursor: pointer;
+}
+
+.js-focus-visible :focus:not(.focus-visible) {
+    outline: 0;
+}
+
+.uneditable-input:focus,
+input[type="color"]:focus,
+input[type="date"]:focus,
+input[type="datetime-local"]:focus,
+input[type="datetime"]:focus,
+input[type="email"]:focus,
+input[type="month"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="week"]:focus,
+textarea:focus {
+    border-color: #000 !important;
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+
+.text-right {
+    text-align: right;
+}
+
+textarea.form-control {
+    padding: 12px !important;
+    height: auto;
+    max-width: 729px;
+}
+
+.pl-70 {
+    padding-left: 77px !important;
+}
+
+.collapsing {
+    transition: none;
+    height: auto;
+}
+
+footer {
+    background-color: #fff;
+}
+
+.bg-light {
+    background-color: #fff;
+}
+
+body .icon_side_contact_wrapper {
+    position: fixed;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-flow: column;
+    z-index: 5;
+}
+
+body .icon_side_contact_wrapper a {
+    width: 80px;
+    transition: linear 0.2s;
+    position: relative;
+    right: -10px;
+}
+
+body .icon_side_contact_wrapper .icon_contact {
+    width: 60px;
+    min-width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    background-color: #2a3526;
+    background-image: url(../app/img/user.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    box-shadow: 0 0 30px 0 rgb(0 0 0 / 20%);
+}
+
+body .icon_side_contact_wrapper .icon_contact.icon_contact-2 {
+    background-image: url(../app/img/mail.svg);
+}
+
+body .icon_side_contact_wrapper .icon_contact.icon_contact-3 {
+    background-image: url(../app/img/phone.svg);
+}
+
+.about-more__button a i.about-more__icon::after {
+    content: none;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse--footer {
+        display: flex !important;
+        flex-basis: auto;
+    }
+    .contacts__row {
+        padding: 33px 0 100px 23px;
+    }
+    body .icon_side_contact_wrapper .icon_contact {
+        width: 60px;
+        min-width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .contacts__data span {
+        font-size: 18px;
+    }
+    .contacts__caption span {
+        font-size: 18px;
+        max-width: 219px;
+    }
+    .contacts__name {
+        font-size: 26px;
+    }
+    .contacts__subname {
+        font-size: 18px;
+    }
+    .banners__video video {
+        height: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        transform: translateY(-200%);
+        opacity: 0;
+        transition: linear 0.3s;
+    }
+    .navbar-collapse.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .header__main {
+        margin-top: 56px;
+    }
+    .news__button .btn::after {
+        right: 15px;
+    }
+    .header__h {
+        height: auto;
+    }
+    .header .nav-item {
+        text-align: center;
+        border-top: 1px solid #f2f2f2;
+        padding: 6px 0;
+    }
+    .header .nav-item:last-child {
+        border-bottom: 1px solid #f2f2f2;
+    }
+    .header .nav-item a.active::after {
+        left: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .header__btn {
+        display: block;
+        margin: 15px auto 5px;
+    }
+    .footer .nav-item--footer {
+        text-align: center;
+        border-top: 1px solid #f2f2f2;
+        padding: 6px 0;
+    }
+    .footer .nav-item--footer:last-child {
+        border-bottom: 1px solid #f2f2f2;
+    }
+    .footer .nav-link--footer.active--footer::after {
+        left: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .footer__btn {
+        display: block;
+        margin: 15px auto 5px;
+    }
+    .footer .navbar-brand {
+        width: 100%;
+    }
+    .footer .navbar-brand img {
+        display: block;
+        margin: auto auto 20px;
+    }
+    .team__title {
+        font-size: 24px;
+    }
+    .team__subtitle {
+        font-size: 20px;
+    }
+    .team__desc p,
+    .team__list ul li,
+    .team__text {
+        font-size: 18px;
+    }
+    .team__button .btn {
+        font-size: 20px;
+    }
+    .career__button {
+        text-align: center;
+    }
+    .pl-70 {
+        padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+        padding-top: 25px;
+    }
+    .career__list ul {
+        column-count: 1;
+    }
+    .career__list ul li:nth-child(3) {
+        margin-bottom: 25px;
+    }
+    .team__block {
+        background-position: 70% center;
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .team__item {
+        flex: 0 0 100%;
+        margin-bottom: 60px;
+    }
+    .team__item:last-child {
+        flex: 0 0 100%;
+        margin-bottom: 0;
+    }
+    .offer__col {
+        flex-flow: column;
+    }
+    .offer__col span {
+        font-size: 21px;
+    }
+    .team__img img {
+        position: static;
+        top: unset;
+        transform: none;
+    }
+    .header__title {
+        font-size: 35px;
+    }
+    .offer__subheader {
+        font-size: 18px;
+    }
+    .navbar-brand {
+        width: 75%;
+    }
+    .navbar-brand img {
+        width: auto;
+        height: auto;
+    }
+    .career__list ul {
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+    .news__button .btn {
+        margin: auto;
+    }
+    .required {
+        font-size: 16px;
+    }
+    .process__info.process__info_services {
+        padding: 26px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .job__loads {
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .job__load {
+        margin-top: 20px;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .job__text {
+        margin-bottom: 25px;
+    }
+    .software__text::after {
+        right: -55px;
+    }
+}
+
+@media (max-width: 992px) {
+    .album__block {
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    .software__text::after {
+        content: none;
+    }
+    .about-two__col {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        flex: 0 0 30%;
+        gap: unset;
+        height: 225px;
+    }
+    .album__items {
+        max-width: 450px;
+    }
+    .album__items .album__item {
+        width: 100%;
+        height: 300px;
+    }
+    .offer__col span {
+        margin-left: 0;
+    }
+    .pages-career .advantage__row {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .advantage__blocks {
+        flex-flow: column;
+    }
+    .album__block {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .process__item {
+        padding: 25px 0;
+    }
+    .process__icon::after {
+        content: unset;
+    }
+    .process__icon {
+        width: 132px;
+    }
+    .about-two__col {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        flex: 0 0 45%;
+        gap: unset;
+        height: 225px;
+    }
+    .about__title {
+        font-size: 35px;
+    }
+    .process__title {
+        font-size: 35px;
+    }
+    .job__title {
+        font-size: 35px;
+    }
+    .about-two__title {
+        font-size: 35px;
+    }
+    .offer__header {
+        font-size: 35px;
+    }
+    .about-two__col span {
+        padding-top: 20px;
+    }
+    .history__item {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .software__title {
+        font-size: 24px;
+    }
+    .career__list .career__two ul {
+        -moz-column-count: 1;
+        column-count: 1;
+        max-height: -webkit-max-content;
+        max-height: -moz-max-content;
+        max-height: max-content;
+    }
+    .career__list .career__one ul li {
+        white-space: normal;
+    }
+    .contacts__row .col-lg-4,
+    .process .col-lg-3 {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+    .mb-20 {
+        margin-bottom: 40px;
+    }
+    .team__row,
+    .offer__row,
+    .banners__row,
+    .news__row,
+    .career__title,
+    .career__list ul,
+    .contacts__row,
+    .footer__row,
+    .header__main,
+    .pages-services .header__main,
+    .header__title,
+    .advantage__title,
+    .pages-services .offer__row,
+    .process__title,
+    .process__item,
+    .pages-about-us .header__main,
+    .about__row,
+    .about__title,
+    .about-two__row,
+    .album__row,
+    .history__row,
+    .software__row,
+    .pages-career .advantage__title,
+    .album__row,
+    .job__desc,
+    .about-more__row,
+    .news-main__row {
+        padding: 30px 0;
+    }
+    .team__subtitle,
+    .team__title,
+    .team__text,
+    .offer__header,
+    .offer__subheader,
+    .offer__icon,
+    .news__title,
+    .news__subtitle,
+    .career__subtitle,
+    .career__text,
+    .career__text,
+    .career__row,
+    .header__subtitle,
+    .advantage__subtitle,
+    .advantage__row,
+    .process__subtitle,
+    .process__icon,
+    .about__subtitle,
+    .about__text,
+    .about-two__title,
+    .about-two__subtitle,
+    .album__title,
+    .album__subtitle,
+    .history__title,
+    .pages-career .advantage__subtitle,
+    .job__title,
+    .job__subtitle,
+    .process__row {
+        padding: 0 0 30px;
+    }
+    .team__block {
+        margin: 30px 0;
+    }
+    .team__list ul,
+    .pl-70,
+    .advantage__blocks,
+    .career__list .career__two,
+    .pages-career .advantage__blocks {
+        padding-top: 30px;
+    }
+    .team__list ul li,
+    .news__top,
+    .mb-40,
+    .news__headline,
+    .news__text,
+    .news__card,
+    .contacts__title,
+    .contacts__subtitle,
+    .about__text p,
+    .history__year,
+    .job__text,
+    .about-more__text,
+    .text h2,
+    .text h6,
+    .about-more__text p {
+        margin-bottom: 30px;
+    }
+    .team__desc,
+    .banners__video,
+    .contacts__form,
+    .software__text {
+        padding: 0;
+        margin-top: 30px;
+    }
+    .news__padd {
+        padding: 20px 15px;
+    }
+    .contacts__info,
+    .software__info {
+        margin-top: 30px;
+        padding: 30px;
+    }
+    .advantage__text {
+        padding: 0 0 30px 0;
+    }
+    .process__info {
+        margin-top: 30px;
+    }
+    .history__text {
+        margin-bottom: 35px;
+    }
+    .software__headline {
+        margin-top: 0;
+    }
+    .job__info {
+        flex-flow: column;
+        margin-top: 30px;
+    }
+    .icon-info {
+        padding-bottom: 30px;
+        padding-right: 0;
+    }
+    .blog__content figure {
+        width: 100%;
+    }
+    .blog__content {
+        margin: 30px 0;
+    }
+    body .icon_side_contact_wrapper {
+        right: 15px;
+        top: auto;
+        bottom: 0;
+        flex-flow: row;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .team__row,
+    .offer__row,
+    .banners__row,
+    .news__row,
+    .career__title,
+    .career__list ul,
+    .contacts__row,
+    .footer__row,
+    .header__main,
+    .pages-services .header__main,
+    .header__title,
+    .advantage__title,
+    .pages-services .offer__row,
+    .process__title,
+    .process__item,
+    .pages-about-us .header__main,
+    .about__row,
+    .about__title,
+    .about-two__row,
+    .album__row,
+    .history__row,
+    .software__row,
+    .pages-career .advantage__title,
+    .album__row,
+    .job__desc,
+    .about-more__row,
+    .news-main__row {
+        padding: 20px 0;
+    }
+    .team__subtitle,
+    .team__title,
+    .team__text,
+    .offer__header,
+    .offer__subheader,
+    .offer__icon,
+    .news__title,
+    .news__subtitle,
+    .career__subtitle,
+    .career__text,
+    .career__text,
+    .career__row,
+    .header__subtitle,
+    .advantage__subtitle,
+    .advantage__row,
+    .process__subtitle,
+    .process__icon,
+    .about__subtitle,
+    .about__text,
+    .about-two__title,
+    .about-two__subtitle,
+    .album__title,
+    .album__subtitle,
+    .history__title,
+    .pages-career .advantage__subtitle,
+    .job__title,
+    .job__subtitle,
+    .process__row {
+        padding: 0 0 20px;
+    }
+    .team__block {
+        margin: 20px 0;
+    }
+    .team__list ul,
+    .pl-70,
+    .advantage__blocks,
+    .career__list .career__two,
+    .pages-career .advantage__blocks {
+        padding-top: 20px;
+    }
+    .team__list ul li,
+    .news__top,
+    .mb-40,
+    .news__headline,
+    .news__text,
+    .news__card,
+    .contacts__title,
+    .contacts__subtitle,
+    .about__text p,
+    .history__year,
+    .job__text,
+    .about-more__text,
+    .text h2,
+    .text h6,
+    .about-more__text p {
+        margin-bottom: 20px;
+    }
+    .team__desc,
+    .banners__video,
+    .contacts__form,
+    .software__text {
+        padding: 0;
+        margin-top: 20px;
+    }
+    .news__padd {
+        padding: 20px 15px;
+    }
+    .contacts__info,
+    .software__info {
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .advantage__text {
+        padding: 0 0 20px 0;
+    }
+    .process__info {
+        margin-top: 20px;
+    }
+    .history__text {
+        margin-bottom: 35px;
+    }
+    .software__headline {
+        margin-top: 0;
+    }
+    .job__info {
+        flex-flow: column;
+        margin-top: 20px;
+    }
+    .icon-info {
+        padding-bottom: 20px;
+        padding-right: 0;
+    }
+    .blog__content figure {
+        width: 100%;
+    }
+    .blog__content {
+        margin: 20px 0;
+    }
+    /**/
+    .software__slider .swiper-wrapper {
+        padding-top: 50px;
+    }
+    .software__slider .swiper-button-next,
+    .software__slider .swiper-button-prev {
+        margin-top: 0 !important;
+        top: 0;
+    }
+    .header__title {
+        font-size: 22px;
+    }
+    .header__subtitle,
+    .header__button .btn,
+    .about__subtitle,
+    .about-two__subtitle,
+    .album__subtitle,
+    .software__subtitle,
+    .team__subtitle,
+    .team__link span,
+    .team__button .btn,
+    .banners__text,
+    .news__subtitle,
+    .news__button .btn,
+    .news__button .btn.newsbtn,
+    .career__subtitle,
+    .career__button .btn,
+    .contacts__subtitle,
+    .advantage__subtitle,
+    .advantage__headline,
+    .process__subtitle,
+    .job__subtitle,
+    .about-more__text,
+    .about-more__button a.btn,
+    .load-more,
+    #more,
+    .text h6,
+    .news__headline {
+        font-size: 18px;
+    }
+    .about__text,
+    .about-two__col span,
+    .history__text,
+    .software__text,
+    .software__text ul li,
+    .news__text,
+    .news__top span,
+    .software__title,
+    .team__text,
+    .team__item p,
+    .team__list ul li,
+    .offer__col span,
+    .career__text,
+    .career__list ul li,
+    .contacts__caption span,
+    .contacts__subname,
+    .contacts__data span,
+    .contacts__text,
+    .form-control,
+    .contacts__upload label,
+    .form-list-item-label,
+    .form-submit,
+    .pages-services .team__list ul li,
+    .advantage__text,
+    .process__text,
+    .process__info,
+    .software__info,
+    .job__text,
+    .job__desc,
+    .job__load a,
+    .job__info,
+    .text p {
+        font-size: 16px;
+    }
+    .history__title,
+    .history__year,
+    .about__title,
+    .process__title,
+    .job__title,
+    .about-two__title,
+    .offer__header,
+    .album__title,
+    .software__headline,
+    .advantage__title,
+    .news__title,
+    .text h2,
+    .h2,
+    .team__title,
+    .offer__header,
+    .career__title,
+    .contacts__title,
+    .contacts__name {
+        font-size: 20px;
+    }
+    .team-icon {
+        font-size: 100px;
+    }
+    body .icon_side_contact_wrapper a {
+        width: 50px;
+        right: 0px;
+    }
+    body .icon_side_contact_wrapper .icon_contact {
+        width: 50px;
+        min-width: 60px;
+        height: 45px;
+    }
+    .header__button .btn i {
+        height: 23px;
+    }
+    .news__card {
+        min-height: 450px;
+    }
+    .news__padd {
+        min-height: 300px;
+    }
+    .advantage__headline p {
+        word-break: normal;
+    }
+}

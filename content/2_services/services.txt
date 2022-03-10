@@ -1,0 +1,209 @@
+Title: Software entwickeln lassen mit Ohrner IT
+
+----
+
+Cover:
+
+- header-min.jpg
+
+----
+
+Subheading: Ihr kompetenter Ansprechpartner für moderne Softwareentwicklung aus der Region Stuttgart
+
+----
+
+Menuheading: Leistungen
+
+----
+
+Titlebtn:
+
+- 
+  platform: Kontakt aufnehmen
+  url: '#contacts'
+
+----
+
+Teamtitle2: Eine individuelle<br> Software kann Sie in vielen Situationen unterstützen
+
+----
+
+Teamsubtitle2: Wir klären Sie gerne vorab über die verschiedenen Umsetzungsmöglichkeiten auf und finden so gemeinsam die richtigen Leistungen für Ihr Anliegen.
+
+----
+
+Teamimage2:
+
+- job.png
+
+----
+
+Teamlist: <ul><li>Automatisierung manueller Arbeitsschritte</li><li>Reduzierung von Arbeitsaufwand und Fehlern aufgrund doppelter Datenpflege</li><li>Effiziente Integration bestehender Systeme</li></ul>
+
+----
+
+Advantagetitle: Leistungen
+
+----
+
+Advantagesubtitle: Als erfahrener IT-Dienstleister setzen wir da, wo Sie in Ihrer Software-Landschaft Lücken sehen, die richtigen Brücken und ermöglichen unterbrechungsfreie Arbeitsprozesse.
+
+----
+
+Advantageimage:
+
+- serv-img.jpg
+
+----
+
+Advantageheadline: Installation und Konfi-<br>guration erforderlicher<br> Systeme und Software
+
+----
+
+Advantagetext: Als Unternehmen für moderne Softwareentwicklung sorgen wir zum einen dafür, dass Ihr System auf dem neuesten Stand ist. Zum anderen legen wir auch höchsten Wert auf Qualität und stellen daher einen reibungslosen Ablauf sicher.
+
+----
+
+Advantageheadline-2: Programmierung von<br> Funktionen und Plugins
+
+----
+
+Advantagetext-2: Jede Software ist individuell und benötigt ganz eigene Funktionalitäten. Wenn Sie uns Ihre Software entwickeln lassen, profitieren Sie von zuverlässigen wie auch intuitiven Lösungen und Funktionen nach Ihren persönlichen Wünschen.
+
+----
+
+Advantageheadline-3: Anpassung vorhandener Softwarepakete
+
+----
+
+Advantagetext-3: Egal ob Open Source oder Inhouse Software – unsere IT-Softwareentwickler finden für Sie zukunftsfähige Lösungen und passen bereits bestehende Softwarepakete nach Ihren Bedürfnissen an.
+
+----
+
+Advantageheadline-4: Individuelle und<br> zukunftsorientierte<br> Softwareentwicklung
+
+----
+
+Advantagetext-4: Sie wollen eine Software entwickeln lassen? Wir stehen für individuelle und besonders wirtschaftliche Lösungen. Daher entwickeln wir Software-Produkte stets mit Blick auf die Zukunft.
+
+----
+
+Advantageheadline-5: 
+
+----
+
+Advantagetext-5: 
+
+----
+
+Advantageheadline-6: 
+
+----
+
+Advantagetext-6: 
+
+----
+
+Techtitle: Technologien
+
+----
+
+Techsubtitle: Wir bieten moderne Softwareentwicklung mit folgenden Technologien
+
+----
+
+Techlist1: <ul><li><strong>Java, Spring</strong></li><li><strong>PHP, Python, LAMP</strong></li><li><strong>AUTOSAR, SOME/IP</strong></li><li><strong>CI/CD, Jenkins, Docker</strong></li></ul>
+
+----
+
+Techlist2: <ul><li><strong>DB2, PostgreSQL, MySQL / MariaDB, MS SQLServer</strong></li></ul>
+
+----
+
+Techimage:
+
+- tech-img.png
+
+----
+
+Offertitle: Diese Vorteile bietet die Softwareentwicklung mit Ohrner IT
+
+----
+
+Offersubtitle: Professionell, schnell und immer für Sie da
+
+----
+
+Servicetext1: Reaktionszeit auf jede Anfrage innerhalb eines Werktages
+
+----
+
+Servicetext2: Ein Ansprechpartner über die gesamte Projektlaufzeit
+
+----
+
+Servicetext3: Mehr Effizienz und Verlässlichkeit durch Automatisierung
+
+----
+
+Servicetext4: Weniger Aufwand durch Reduktion manueller Schritte
+
+----
+
+Servicetext5: Maximale Transparenz über den jeweiligen Projektabschnitt
+
+----
+
+Servicetext6: Höhere Qualität durch Vermeidung manueller Fehler
+
+----
+
+Processtitle: So entwickeln wir Ihre Software
+
+----
+
+Processsubtitle: Beratung, Umsetzung, Implementierung
+
+----
+
+Processtext1: Im ersten Schritt tauschen wir uns mit Ihnen ausgiebig aus, um alle wichtigen Funktionen, Eigenschaften und Ziele der gewünschten Software in Erfahrung zu bringen und nachfolgend berücksichtigen zu können.
+
+----
+
+Processtext2: Anschließend geht es an die Arbeit. Unsere qualifizierten Mitarbeiter entwickeln die Software angepasst an Ihre individuellen Anforderungen und stehen auch während der Entwicklungsarbeit in engem Austausch mit Ihnen.
+
+----
+
+Processtext3: Sobald Ihre Software fertiggestellt ist, wird sie in Ihre Systeme implementiert und umfassend überprüft sowie auch in Zukunft regelmäßig gewartet. Auch nachträgliche Anpassungen kann unser kompetentes Team umsetzen.
+
+----
+
+Processinfo: Wenn Sie auf der Suche nach einem innovativen, zuverlässigen und flexiblen Softwareentwickler sind, dann sollten Sie uns Ihre Software entwickeln lassen.
+
+----
+
+Teamtext2: 
+
+----
+
+Cartitle: Technologien
+
+----
+
+Carsubtitle: Wir bieten moderne Softwareentwicklung mit folgenden Technologien
+
+----
+
+Cartext: 
+
+----
+
+Carlist: <ul><li>Java, Spring</li><li>PHP, Python, LAMP</li><li>AUTOSAR, SOME/IP</li><li>CI/CD, Jenkins, Docker</li></ul>
+
+----
+
+Cartext2: 
+
+----
+
+Carimage: 
