@@ -1,13 +1,10 @@
-<img src="http://getkirby.com/assets/images/github/starterkit.jpg" width="300">
-
-
 **Kirby: the CMS that adapts to any project, loved by developers and editors alike.**  
 The Starterkit is a full-blown Kirby installation with a lot of example content, blueprints, templates and more.  
 It is ideal for new users to explore many of Kirby's options and get to know the Panel.
 
 You can learn more about Kirby at [getkirby.com](https://getkirby.com).
 
-<img src="http://getkirby.com/assets/images/github/starterkit-screen.png" />
+<img src="https://i.ibb.co/znrHv1N/160631.png" alt="160631" border="0">
 
 ### Try Kirby for free  
 You can try Kirby and the Starterkit on your local machine or on a test server as long as you need to make sure it is the right tool for your next project. … and when you’re convinced, [buy your license](https://getkirby.com/buy).
